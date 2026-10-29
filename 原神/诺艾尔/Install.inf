@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+Noelle normal.ani
+Noelle help.ani
+Noelle work.ani
+Noelle busy.ani
+Noelle text.ani
+Noelle unavailable.ani
+Noelle vert.ani
+Noelle horz.ani
+Noelle dgn1.ani
+Noelle dgn2.ani
+Noelle move.ani
+Noelle link.ani
+Noelle precision.ani
+Noelle hand.ani
+Noelle alt.ani
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR       = "Cursors\Noelle Cursor"
+SCHEME_NAME   = "Noelle Cursor"
+pointer       = "Noelle normal.ani"
+help          = "Noelle help.ani"
+work          = "Noelle work.ani"
+busy          = "Noelle busy.ani"
+text          = "Noelle text.ani"
+unavailiable  = "Noelle unavailable.ani"
+vert          = "Noelle vert.ani"
+horz          = "Noelle horz.ani"
+dgn1          = "Noelle dgn1.ani"
+dgn2          = "Noelle dgn2.ani"
+move          = "Noelle move.ani"
+link          = "Noelle link.ani"
+cross         = "Noelle precision.ani"
+hand          = "Noelle hand.ani"
+alternate     = "Noelle alt.ani"
