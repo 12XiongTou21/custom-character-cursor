@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+Wanderer normal.ani
+Wanderer help.ani
+Wanderer work.ani
+Wanderer busy.ani
+Wanderer text.ani
+Wanderer unavailable.ani
+Wanderer vert.ani
+Wanderer horz.ani
+Wanderer dgn1.ani
+Wanderer dgn2.ani
+Wanderer move.ani
+Wanderer link.ani
+Wanderer precision.ani
+Wanderer hand.ani
+Wanderer alt.ani
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR       = "Cursors\Wanderer Cursor"
+SCHEME_NAME   = "Wanderer Cursor"
+pointer       = "Wanderer normal.ani"
+help          = "Wanderer help.ani"
+work          = "Wanderer work.ani"
+busy          = "Wanderer busy.ani"
+text          = "Wanderer text.ani"
+unavailiable  = "Wanderer unavailable.ani"
+vert          = "Wanderer vert.ani"
+horz          = "Wanderer horz.ani"
+dgn1          = "Wanderer dgn1.ani"
+dgn2          = "Wanderer dgn2.ani"
+move          = "Wanderer move.ani"
+link          = "Wanderer link.ani"
+cross         = "Wanderer precision.ani"
+hand          = "Wanderer hand.ani"
+alternate     = "Wanderer alt.ani"
