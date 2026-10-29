@@ -1,0 +1,55 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Scheme.Cur]
+Furina normal.ani
+Furina help.ani
+Furina work.ani
+Furina busy.ani
+Furina text.ani
+Furina unavailable.ani
+Furina vert.ani
+Furina horz.ani
+Furina dgn1.ani
+Furina dgn2.ani
+Furina move.ani
+Furina link.ani
+Furina precision.ani
+Furina hand.ani
+Furina alt.ani
+Furina location.ani
+Furina person.ani
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR       = "Cursors\Furina 2.0 Cursor"
+SCHEME_NAME   = "Furina 2.0 Cursor"
+pointer       = "Furina normal.ani"
+help          = "Furina help.ani"
+work          = "Furina work.ani"
+busy          = "Furina busy.ani"
+text          = "Furina text.ani"
+unavailiable  = "Furina unavailable.ani"
+vert          = "Furina vert.ani"
+horz          = "Furina horz.ani"
+dgn1          = "Furina dgn1.ani"
+dgn2          = "Furina dgn2.ani"
+move          = "Furina move.ani"
+link          = "Furina link.ani"
+cross         = "Furina precision.ani"
+hand          = "Furina hand.ani"
+alternate     = "Furina alt.ani"
+pin           = "Furina location.ani"
+person        = "Furina person.ani"

@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+Frieren normal.ani
+Frieren help.ani
+Frieren work.ani
+Frieren busy.ani
+Frieren text.ani
+Frieren unavailable.ani
+Frieren vert.ani
+Frieren horz.ani
+Frieren dgn1.ani
+Frieren dgn2.ani
+Frieren move.ani
+Frieren link.ani
+Frieren precision.ani
+Frieren hand.ani
+Frieren alt.ani
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR       = "Cursors\Frieren Cursor"
+SCHEME_NAME   = "Frieren Cursor"
+pointer       = "Frieren normal.ani"
+help          = "Frieren help.ani"
+work          = "Frieren work.ani"
+busy          = "Frieren busy.ani"
+text          = "Frieren text.ani"
+unavailiable  = "Frieren unavailable.ani"
+vert          = "Frieren vert.ani"
+horz          = "Frieren horz.ani"
+dgn1          = "Frieren dgn1.ani"
+dgn2          = "Frieren dgn2.ani"
+move          = "Frieren move.ani"
+link          = "Frieren link.ani"
+cross         = "Frieren precision.ani"
+hand          = "Frieren hand.ani"
+alternate     = "Frieren alt.ani"
