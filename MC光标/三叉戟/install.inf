@@ -1,0 +1,48 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=%ProviderName%
+
+[DefaultInstall]
+CopyFiles=Cursors.Copy
+AddReg=Cursors.AddReg
+
+[DestinationDirs]
+Cursors.Copy=10,"%CursorsSubDir%"
+
+[Cursors.Copy]
+arrow.cur
+help.cur
+appstarting.cur
+wait.cur
+crosshair.cur
+ibeam.cur
+nwpen.cur
+no.cur
+sizens.cur
+sizewe.cur
+sizenwse.cur
+sizenesw.cur
+sizeall.cur
+uparrow.cur
+hand.cur
+
+[Cursors.AddReg]
+HKCU,"Control Panel\Cursors","Arrow","0x00020000","%%10%%\%%CursorsSubDir%%\arrow.cur"
+HKCU,"Control Panel\Cursors","Help","0x00020000","%%10%%\%%CursorsSubDir%%\help.cur"
+HKCU,"Control Panel\Cursors","AppStarting","0x00020000","%%10%%\%%CursorsSubDir%%\appstarting.cur"
+HKCU,"Control Panel\Cursors","Wait","0x00020000","%%10%%\%%CursorsSubDir%%\wait.cur"
+HKCU,"Control Panel\Cursors","Crosshair","0x00020000","%%10%%\%%CursorsSubDir%%\crosshair.cur"
+HKCU,"Control Panel\Cursors","IBeam","0x00020000","%%10%%\%%CursorsSubDir%%\ibeam.cur"
+HKCU,"Control Panel\Cursors","NWPen","0x00020000","%%10%%\%%CursorsSubDir%%\nwpen.cur"
+HKCU,"Control Panel\Cursors","No","0x00020000","%%10%%\%%CursorsSubDir%%\no.cur"
+HKCU,"Control Panel\Cursors","SizeNS","0x00020000","%%10%%\%%CursorsSubDir%%\sizens.cur"
+HKCU,"Control Panel\Cursors","SizeWE","0x00020000","%%10%%\%%CursorsSubDir%%\sizewe.cur"
+HKCU,"Control Panel\Cursors","SizeNWSE","0x00020000","%%10%%\%%CursorsSubDir%%\sizenwse.cur"
+HKCU,"Control Panel\Cursors","SizeNESW","0x00020000","%%10%%\%%CursorsSubDir%%\sizenesw.cur"
+HKCU,"Control Panel\Cursors","SizeAll","0x00020000","%%10%%\%%CursorsSubDir%%\sizeall.cur"
+HKCU,"Control Panel\Cursors","UpArrow","0x00020000","%%10%%\%%CursorsSubDir%%\uparrow.cur"
+HKCU,"Control Panel\Cursors","Hand","0x00020000","%%10%%\%%CursorsSubDir%%\hand.cur"
+
+[Strings]
+ProviderName="MineCursor"
+CursorsSubDir="Cursors\三叉戟"
